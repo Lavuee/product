@@ -1,0 +1,32 @@
+<div *ngIf="product">
+    <div class="centering">
+        <div class="all">
+            <h1>PRODUCT DETAILS</h1>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Name:</th>
+                        <td>{{product.name}}</td>
+                    </tr>
+                    <tr>
+                        <th>Price:</th>
+                        <td>{{product.price}}</td>
+                    </tr>
+                    <tr>
+                        <th>Location:</th>
+                        <td>{{product.location}}</td>
+                    </tr>
+                    <tr>
+                        <th>Details:</th>
+                        <td>{{product.details}}</td>
+                    </tr>
+                    <tr>
+                        <td class="button">
+                            <button a routerLink="/list">Go Back</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
